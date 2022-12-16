@@ -52,6 +52,7 @@ const SignUp = () => {
                 className="showHideIcon"
                 onClick={() => setShowPassword(!showPassword)}
               >
+                
                 {showPassword ? <BsEye /> : <BsEyeSlash fontSize='30' />}
               </span>
             </div>
