@@ -1,6 +1,5 @@
 import React from 'react';
 import './Buybooks.css';
-import BookShelf from  '../../Assets/book-shelf.svg';
 import WhyUs from '../../Components/why-choose-us/WhyUs';
 import Girls from '../../Assets/gils-on-bed.svg';
 import Books from '../../Components/books/Books';
@@ -25,11 +24,11 @@ export default function Buybooks() {
 					<button className='buy-books-btn'>Buy Books</button>
 				</div>
 				<div className='book-shelf-container'>
-					<img
+					{/* <img
 						src={BookShelf}
 						alt='books'
 						className='book-shelf-image'
-					/>
+					/> */}
 				</div>
 			</section>
 			<WhyUs />
