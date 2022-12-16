@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import BooksPage from "./pages/AllBooks/BooksPage";
-import Buybooks from "./pages/buy-books/Buybooks";
-import Landingpage from "./pages/LandingPage/Landingpage";
-import Savemoneypage from "./pages/savemoneypage/Savemoneypage";
+import BooksPage from "./Pages/AllBooks/BooksPage";
+import Buybooks from "./Pages/buy-books/Buybooks";
+import Landingpage from "./Pages/LandingPage/Landingpage";
+import Savemoneypage from "./Pages/savemoneypage/Savemoneypage";
 import Savings from "./Components/Savings/Savings";
 import AccountSettings from './Components/AccountSettings/AccountSettings'
 import SecuritySettings from './Components/SecuritySettings/SecuritySettings'
@@ -11,13 +11,13 @@ import Sidebars from "./Components/Sidebars/Sidebars";
 import Wallet from "./Components/Wallet/Wallet";
 import Refferal from "./Components/Refferal/Refferal";
 import Profiles from "./Components/Profiles/Profiles";
-// import Dashboard from "./Pages/Dashboard/Dashboard"p
+// import Dashboard from "./Pages/Dashboard/Dashboard";
 import Overview from "./Components/Overview/Overview";
-import SignUp from "./pages/UserReg/SignUp";
-import Login from "./pages/UserReg/Login";
-import ForgetPassword from "./pages/UserReg/ForgetPassword";
+import SignUp from "./Pages/UserReg/SignUp";
+import Login from "./Pages/UserReg/Login";
+import ForgetPassword from "./Pages/UserReg/ForgetPassword";
 // import SettingsLayout from "./layout/SettingsLayout";
-import ReactOtpInput from "./pages/UserReg/ReactOtpInput";
+import ReactOtpInput from "./Pages/UserReg/ReactOtpInput";
 import Settings from "./Components/Settings/Settings";
 import PaystackAcct from "./Components/Paystacck/PaystackAcct";
 // import DashboardLayout from "./layout/DashboardLayout";
