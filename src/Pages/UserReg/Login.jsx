@@ -52,8 +52,8 @@ const SignUp = () => {
                 className="showHideIcon"
                 onClick={() => setShowPassword(!showPassword)}
               >
-                
-                {showPassword ? <BsEye /> : <BsEyeSlash fontSize='30' />}
+
+                {showPassword ? <BsEye /> : <BsEyeSlash fontSize='20' />}
               </span>
             </div>
             {errors.password ? (
