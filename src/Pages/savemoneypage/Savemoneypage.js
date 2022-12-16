@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbars from '../../Components/nav-bar/Navbars';
-// import Coins from '../../Assets/save-coins.svg';
+import Coins from '../../Assets/save-coins.svg';
 import './Savemoneypage.css';
 import WhyUs from '../../Components/why-choose-us/WhyUs';
 import flower from '../../Assets/flower.svg';
@@ -29,11 +29,11 @@ export default function Savemoneypage() {
 					</button>
 				</div>
 				<div className='image-hero-section'>
-					{/* <img
+					<img
 						src={Coins}
 						alt='coins'
 						className='savemoney-hero-section-img'
-					/> */}
+					/>
 				</div>
 			</section>
 			<WhyUs />
